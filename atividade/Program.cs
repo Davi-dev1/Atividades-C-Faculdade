@@ -18,7 +18,7 @@ Console.WriteLine("\nDigite o valor de b = ");
 b = int.Parse(Console.ReadLine());
 x = 10.5;
 x = (int)x;
-x = (double)a / b;
+x = (double)a / b; //a e b viram valores flutuantes  (usamos casting)
 Console.WriteLine("A = {0} e B = {1}",a,b);
 Console.WriteLine("\nValor da soma  =  "+(a+b));
 Console.WriteLine("\nValor da subtração = " + (a - b));
